@@ -1,28 +1,27 @@
-/*  Nós vamos fazer a imlementação manual de um Array, que simula o comportamento de um
+/*  
+    Nós vamos fazer a imlementação manual de um Array, que simula o comportamento de um
     array básico sem recurrer às funções nativas do JavaScript (como push, pop ou length).
 */
 
-/*  Implementação do Protótipo da Classe
+/* 
+    Implementação do Protótipo da Classe:
+
+    class MeuPrimeiroArray {
+        constructor() { }
+
+        adicionar(elemento) { }
+        remover() { }
+        obterElemento(indice) { }
+        tamanhoArray() { }
+        limpar() { }
+    };
+
+    module.exports = MeuPrimeiroArray;
+*/
 
 class MeuPrimeiroArray {
-    constructor() { }
 
-    adicionar(elemento) { }
-
-    remover() { }
-
-    obterElemento(indice) { }
-
-    tamanhoArray() { }
-
-    limpar() { }
-};
-
-module.exports = MeuPrimeiroArray; */
-
-class MeuPrimeiroArray {
-
-    // O método contrutor é chamado quando uma nova instância da classe (Objeto) é criada
+    // O método 'Constructor' é chamado quando uma nova instância da classe (Objeto) é criada
     constructor(){
         
         // Utilizamos uma lista para armazenar os itens do array
@@ -35,7 +34,7 @@ class MeuPrimeiroArray {
     // O método 'Adicionar' adiciona um elemento no final do array
     adicionar(elemento){
 
-        // Nós vamos inserir esse elemento na posição atual do tamanho do array.
+        // Nós vamos inserir esse elemento na posição atual do tamanho do array
         this.itens[this.tamanho] = elemento;
 
         // E então incrementamos o tamanho do array
