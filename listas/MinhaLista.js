@@ -1,4 +1,9 @@
 /*
+    Nós vamos fazer a implementação manual de uma Lista Encadeada, sem recorrer a métodos nativos
+    do JavaScript.
+*/
+
+/*
     Protótipo da Classe:
 
     class LinkedList {
@@ -17,6 +22,9 @@
 
     module.exports = LinkedList;
 */
+
+// Importamos a classe Node que representa cada nó da lista
+const Node = require('./Node');
 
 class LinkedList {
 
