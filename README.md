@@ -9,6 +9,8 @@ Estruturas de dados básicas incluem arrays, listas, pilhas, filas, árvores e g
 ## Arrays
 > Um array é uma estrutura de dados que armazena uma coleção de elementos em posições consecutivas de memória.
 
+...
+
 ## Pilhas
 ...
 
@@ -23,3 +25,10 @@ Estruturas de dados básicas incluem arrays, listas, pilhas, filas, árvores e g
 Cada elemento de uma lista encadeada é chamado de **nó** (node). Um nó é composto por duas partes:
 * **value**: os dados que estamos armazenando.
 * **next**: uma referência que aponta para o próximo nó na sequência (como um ponteiro).
+
+...
+
+## Listas Duplamente Encadeadas
+> Uma lista duplamente encadeada é uma estrutura de dados onde cada nó possui uma referência que aponta tanto para o próximo nó quanto para o nó anterior.
+
+> Diferentemente das listas encadeadas simples, ela permite percorrer a lista tanto do início ao fim quanto no inverso.
