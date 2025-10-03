@@ -12,10 +12,19 @@ Estruturas de dados básicas incluem arrays, listas, pilhas, filas, árvores e g
 ...
 
 ## Pilhas
-...
+> Uma pilha (ou _stack_) é uma estrutura de dados linear que segue os princípios FILO e LIFO.
+
+> No sentido figurado, podemos imaginar que os dados estão sendo literalmente empilhados (não é possível retirar a base sem antes retirar tudo o que colocamos em cima dela).
+
+* **FILO**: _First in - Last out_.
+* **LIFO**: _Last in - First out_.
 
 ## Filas
-...
+> Uma fila também é uma estrutura de dados linear, porém ela segue o princípio FIFO.
+
+> No sentido figurado, podemos imaginar literalmente uma fila de pessoas esperando para serem atendidas (não é possível cchegar até a última pessoa sem antes atender todas as outras que chegaram primeiro).
+
+* **FIFO**: _First in - First out_
 
 ## Listas Encadeadas
 > A lista encadeada é a primeira estrutura de dados que não utiliza um array como base.
@@ -32,3 +41,17 @@ Cada elemento de uma lista encadeada é chamado de **nó** (node). Um nó é com
 > Uma lista duplamente encadeada é uma estrutura de dados onde cada nó possui uma referência que aponta tanto para o próximo nó quanto para o nó anterior.
 
 > Diferentemente das listas encadeadas simples, ela permite percorrer a lista tanto do início ao fim quanto no inverso.
+
+## Dicionários
+> Os dicionários são estruturas de dados que armazenas pares chave-valor. Eles permitem armazenar dados de forma associativa, onde uma chave é usada para acessar um valor correspondente.
+
+> Para trabalhar com dicionários, podemos utilizar tanto Object quanto Map.
+
+| Aspecto | Object | Map |
+| --- |:---:|:---:|
+| _Tipos de chaves_ | Apenas strings e símbolos  | Qualquer tipo, incluindo objjetos, funções, números, etc... |
+| _Ordem das chaves_ | Não garantida (pode variar) | Preserva a ordem de inserção |
+| _Iteração_ | 'for...in' ou 'Object.keys', etc... | Iteração direto com 'for...of' |
+| _Tamanho_ | Precisa calcular manualmente | Acesso rápido com map.size |
+| _Métodos utilitários_ | Limitados | Métodos como set, get, delete, clear |
+| _Desempenho_ | Menor eficiência em grandes conjuntos | Melhor desempenho para adição e remoção frequente |
