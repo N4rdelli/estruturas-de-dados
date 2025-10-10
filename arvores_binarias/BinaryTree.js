@@ -136,6 +136,14 @@ class BinaryTree {
             return node;
         }
     }
+
+    _findMinNode(node){
+        while (node.left !== null){
+            // Continua indo para a esquerda até encontrar o menor valor
+            node =  node.left;
+        }
+        return node;
+    }
 }
 
 module.exports = BinaryTree;
