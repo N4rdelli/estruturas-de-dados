@@ -5,4 +5,4 @@ class Node {
     }
 }
 
-module.exxports = Node;
+module.exports = Node;
