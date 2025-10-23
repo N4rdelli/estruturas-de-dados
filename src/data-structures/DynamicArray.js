@@ -71,6 +71,8 @@ class DynamicArray{
 
         // Zeramos o tamanho do array
         this.length = 0;
+
+        // Podemos comparar ao método nativo 'meuArray.length = 0'
     }
 
     // O método 'insertAt' insere um elemento em um índice específico do array
@@ -90,6 +92,8 @@ class DynamicArray{
 
         // Incrementamos o tamanho do array
         this.length++;
+
+        // Podemos comparar ao método nativo 'meuArray.splice(index, 0, element)'
     }
 }  
 
