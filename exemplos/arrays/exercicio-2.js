@@ -13,6 +13,8 @@ funcionariosTreinados.adicionarElementoNoFinal("Bruno Oller");
 
 funcionariosTreinados.obterElementoPorIndice(2);
 
+funcionariosTreinados.obterIndicePorElemento("João Pedro Surita");
+
 funcionariosTreinados.limparArray();
 
 // Pergunta 1: O que acontece se tentarmos acessar um índice inexistente após limpar o Array?

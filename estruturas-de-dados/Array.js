@@ -78,7 +78,14 @@ export default class Array {
 
     editar(indice, novoValor) {}
 
+    // Método para obter o índice de um item do Array a partir do seu valor
     obterIndicePorElemento(elemento) {
-        
+        for (let indice = 0; indice < this.#tamanhoDoArray; indice++) {
+            const item = this.#itensDoArray[indice];
+            
+            if (item === elemento){
+                console.log(`Índice do elemento com valor "${elemento}" encontrado: índice ${indice}.`)
+            }
+        }
     }
 }
