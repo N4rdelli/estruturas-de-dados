@@ -1,7 +1,6 @@
+// Implementação manual de um Array, que simula os comportamentos de um array básico, sem utilizar as funções nativas do JavaScript
+
 export default class Array {
-
-    // 
-
     // Quando utilizamos '#', estamos dizendo que o atributo é privado, ou seja, não pode ser acessado fora da classe sem um método
     // Inicializamos uma lista 'itensDoArray' para armazenar os itens do Array
     #itensDoArray = [];
@@ -79,5 +78,7 @@ export default class Array {
 
     editar(indice, novoValor) {}
 
-    obterIndice(valor) {}
+    obterIndicePorElemento(elemento) {
+        
+    }
 }
